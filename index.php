@@ -13,6 +13,24 @@
 
 </head>
 <body>
-    <h1>My first PHP project</h1>
+    <header class="mb-5">
+        <h2>Badwords</h2>
+    </header>
+    <main class="container">
+        <form action="./response.php" method="get">
+            <div class="mb-3">
+                <label for="paragraph" class="form-label">Write the text</label>
+                <input type="email" class="form-control" id="paragraph" >
+            </div>
+            <div class="mb-3">
+                <label for="word" class="form-label">Badword</label>
+                <textarea class="form-control" id="word" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+        </form>
+    </main>
+
+
 </body>
 </html>
