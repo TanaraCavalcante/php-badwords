@@ -20,11 +20,11 @@
         <form action="./response.php" method="get">
             <div class="mb-3">
                 <label for="paragraph" class="form-label">Write the text</label>
-                <input type="email" class="form-control" id="paragraph" >
+                <input type="text" class="form-control" id="paragraph" name="text">
             </div>
             <div class="mb-3">
                 <label for="word" class="form-label">Badword</label>
-                <textarea class="form-control" id="word" rows="3"></textarea>
+                <input class="form-control" id="word" name="badword"></input>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             <button type="reset" class="btn btn-danger">Reset</button>
